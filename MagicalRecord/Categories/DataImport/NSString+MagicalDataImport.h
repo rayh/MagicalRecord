@@ -12,4 +12,7 @@
 
 - (NSString *) MR_capitalizedFirstCharacterString;
 
+- (id) MR_relatedValueForRelationship:(NSRelationshipDescription *)relationshipInfo;
+- (NSString *) MR_lookupKeyForAttribute:(NSAttributeDescription *)attributeInfo;
+
 @end
