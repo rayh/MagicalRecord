@@ -26,9 +26,9 @@
     return self;
 }
 
-- (NSString *) MR_lookupKeyForAttribute:(NSAttributeDescription *)attributeInfo
+- (NSString *) MR_lookupKeyForAttribute:(NSAttributeDescription *)attributeInfo;
 {
-    return nil;
+    return @"self";
 }
 
 @end
